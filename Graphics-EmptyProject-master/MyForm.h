@@ -42,8 +42,8 @@ namespace CppWinForm1 {
 			WhitePen = gcnew Pen(Color::LightSeaGreen);
 			WhitePen->Width = 15.0F;
 
-			CenterX = 150;
-			CenterY = 250;
+			CenterX = 450;
+			CenterY = 80;
 			Width =Height = 200;
 
 			PopCount = 0;
@@ -260,7 +260,7 @@ namespace CppWinForm1 {
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->BackColor = System::Drawing::Color::LightSeaGreen;
-			this->ClientSize = System::Drawing::Size(543, 373);
+			this->ClientSize = System::Drawing::Size(1051, 373);
 			this->Controls->Add(this->label8);
 			this->Controls->Add(this->label7);
 			this->Controls->Add(this->label6);
